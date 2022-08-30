@@ -21,13 +21,38 @@ const ChooseUs = () => {
                 by the readable content of a page when looking at its layout
               </p>
             </div>
-            <div className="features">
-              <div className="features__one">
+            <div className="features mt-4">
+              <div className="features__one d-flex align-items-center gap-5">
                 <div className="single__feature">
                   <span>
                     <i class="ri-truck-line"></i>
                   </span>
                   <h6>Free Home Delivery</h6>
+                  <p>the readable content page when looking</p>
+                </div>
+
+                <div className="single__feature">
+                  <span className="feature__icon-two">
+                    <i class="ri-money-dollar-circle-line"></i>
+                  </span>
+                  <h6>Return & Refund </h6>
+                  <p>the readable content page when looking</p>
+                </div>
+              </div>
+              <div className="features__one mt-3 d-flex align-items-center gap-5">
+                <div className="single__feature">
+                  <span className="feature__icon-three">
+                    <i class="ri-secure-payment-line"></i>
+                  </span>
+                  <h6>Secure Payment</h6>
+                  <p>the readable content page when looking</p>
+                </div>
+
+                <div className="single__feature">
+                  <span className="feature__icon-four">
+                    <i class="ri-24-hours-line"></i>
+                  </span>
+                  <h6>24 Hours Service</h6>
                   <p>the readable content page when looking</p>
                 </div>
               </div>

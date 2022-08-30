@@ -1,0 +1,54 @@
+.single__feature span {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ff766b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.single__feature span:hover {
+  background: #ff766b;
+  border: none;
+}
+.single__feature span i {
+  font-size: 1.5rem;
+}
+.choose__content h4 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.single__feature h6 {
+  color: #f5b70a;
+  margin-bottom: 0;
+}
+.single__feature p {
+  font-size: 0.7rem;
+}
+.feature__icon-two {
+  border: 1px solid #2ace92 !important;
+  background: transparent !important ;
+}
+.feature__icon-two:hover {
+  border: none !important;
+  background: #2ace92 !important;
+}
+.feature__icon-three {
+  border: 1px solid #f5b70a !important;
+  background: transparent !important;
+}
+.feature__icon-three:hover {
+  border: none !important;
+  background: #f5b70a !important;
+}
+.feature__icon-four {
+  border: 1px solid #7865ff !important;
+  background: transparent !important;
+}
+.feature__icon-four:hover {
+  border: none !important;
+  background: #7865ff !important;
+}
