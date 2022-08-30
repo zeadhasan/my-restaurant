@@ -1,6 +1,8 @@
 import sliderImg01 from "../images/slider1.png";
 import sliderImg02 from "../images/slider2.png";
 import sliderImg03 from "../images/slider03.png";
+import sliderImg04 from "../images/slider04.png";
+import sliderImg05 from "../images/slider05.png";
 
 export const sliderData = [
   {
@@ -21,5 +23,16 @@ export const sliderData = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
     imgUrl: sliderImg03,
   },
+  {
+    id: "04",
+    title: "Our believe good food with a smile",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
+    imgUrl: sliderImg04,
+  },
+  {
+    id: "05",
+    title: "Meet, Eat and Enjoy the true test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi animi, itaque ipsum magnam quae alias omnis veniam dolor fugiat similique voluptas consectetur corrupti odit quisquam incidunt quia architecto voluptate molestiae?",
+    imgUrl: sliderImg05,
+  },
 ];
-
