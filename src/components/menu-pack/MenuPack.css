@@ -1,0 +1,21 @@
+.filter-btn {
+  border: 1px solid #f76e11;
+  padding: 7px 25px;
+  margin-left: 15px;
+  color: #fff;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+.filter-btn:hover {
+  background: #f76e11;
+  border: 1px solid #fff;
+}
+
+.menu__title {
+  color: #f5b70a;
+}
+.active__btn {
+  background: #f76e11;
+}
