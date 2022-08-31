@@ -39,7 +39,7 @@ const Header = () => {
                 <span>
                   <i class="ri-restaurant-2-line"></i>
                 </span>
-                Chef food
+                Chef love
               </h2>
             </div>
 
