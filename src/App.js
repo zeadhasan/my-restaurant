@@ -6,6 +6,7 @@ import PopularMenu from "./components/popular-menu/PopularMenu";
 import ChooseUs from "./components/choose-us/ChooseUs";
 import MenuPack from "./components/menu-pack/MenuPack";
 import Testimonials from "./components/testimonials/Testimonials";
+import DownloadSection from "./components/download-section/DownloadSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ChooseUs />
       <MenuPack />
       <Testimonials />
+      <DownloadSection />
     </Fragment>
   );
 }
