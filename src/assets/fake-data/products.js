@@ -1,5 +1,8 @@
 // ======= imported  all products images from images folder ========
 import pizzaImg01 from "../images/pizza1.png";
+import pizzaImg02 from "../images/pizza2.png";
+import pizzaImg03 from "../images/pizza3.jpg";
+import pizzaImg04 from "../images/pizza4.jpg";
 
 import fastFood03 from "../images/chicken3.png";
 import fastFood04 from "../images/chicken4.png";
@@ -7,8 +10,19 @@ import fastFood04 from "../images/chicken4.png";
 import dessert02 from "../images/dessert02.png";
 import dessert03 from "../images/dessert2.png";
 import dessert04 from "../images/dessert3.png";
+import dessert05 from "../images/dessert03.png";
+import dessert06 from "../images/dessert04.png";
+import dessert07 from "../images/dessert05.png";
+import dessert08 from "../images/dessert06.png";
+
 
 import coffeeImg02 from "../images/coffe2.png";
+import coffeeImg03 from "../images/coffe3.png";
+import coffeeImg04 from "../images/coffe4.png";
+import coffeeImg05 from "../images/coffe5.png";
+import coffeeImg06 from "../images/coffe6.png";
+import coffeeImg07 from "../images/coffe7.png";
+import coffeeImg08 from "../images/coffe8.png";
 
 import salad from "../images/slider2.png";
 
@@ -148,7 +162,7 @@ export const dessertProducts = [
     id: "21",
     title: "Whipped Cream",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: dessert05,
   },
   {
     id: "22",
@@ -160,19 +174,19 @@ export const dessertProducts = [
     id: "23",
     title: "Cake",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: dessert08,
   },
   {
     id: "24",
     title: "Cup Cake",
     price: 275,
-    imgUrl: dessert04,
+    imgUrl: dessert06,
   },
   {
     id: "25",
     title: "Whipped Cream",
     price: 50,
-    imgUrl: dessert03,
+    imgUrl: dessert07,
   },
   {
     id: "26",
@@ -205,19 +219,19 @@ export const pizzaProducts = [
     id: "30",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg02,
   },
   {
     id: "31",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg03,
   },
   {
     id: "32",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg04,
   },
   {
     id: "33",
@@ -251,25 +265,25 @@ export const coffeeProducts = [
     id: "37",
     title: "Hot Coffee",
     price: 20,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg07,
   },
   {
     id: "38",
     title: "Cold Coffee",
     price: 20,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg04,
   },
   {
     id: "39",
     title: "Black Coffee",
     price: 20,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg03,
   },
   {
     id: "40",
     title: "White Coffee",
     price: 95,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg06,
   },
   {
     id: "41",
@@ -281,19 +295,19 @@ export const coffeeProducts = [
     id: "42",
     title: "Cold Coffee",
     price: 20,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg08,
   },
 
   {
     id: "43",
     title: "Black Coffee",
     price: 20,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg05,
   },
   {
     id: "44",
     title: "White Coffee",
     price: 95,
-    imgUrl: coffeeImg02,
+    imgUrl: coffeeImg03,
   },
 ];
