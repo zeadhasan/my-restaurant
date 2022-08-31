@@ -1,6 +1,43 @@
 import React from "react";
 import "./Footer.css";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
+
+const footerQuickLinks = [
+  {
+    display: "Terms & Conditions",
+    url: "#",
+  },
+  {
+    display: "Privacy Policy",
+    url: "#",
+  },
+  {
+    display: "Return & Refund",
+    url: "#",
+  },
+  {
+    display: "Payment Method",
+    url: "#",
+  },
+];
+const footerLinks = [
+  {
+    display: "About Us",
+    url: "#",
+  },
+  {
+    display: "Menu",
+    url: "#",
+  },
+  {
+    display: "Recipe",
+    url: "#",
+  },
+  {
+    display: "Contact",
+    url: "#",
+  },
+];
 
 const Footer = () => {
   return (
@@ -24,7 +61,14 @@ const Footer = () => {
             </Col>
 
             <Col lg="2" md="4" sm="6">
-              <div className="footer__link-title"></div>
+              <h5 className="footer__link-title">Quick Links</h5>
+              <ListGroup>
+                {footerQuickLinks.map((item, index) => (
+                  <ListGroupItem key={index} className="link__item">
+                    <a href={item.url}>{item.display}</a>
+                  </ListGroupItem>
+                ))}
+              </ListGroup>
             </Col>
           </Row>
         </Container>
