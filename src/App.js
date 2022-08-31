@@ -7,6 +7,7 @@ import ChooseUs from "./components/choose-us/ChooseUs";
 import MenuPack from "./components/menu-pack/MenuPack";
 import Testimonials from "./components/testimonials/Testimonials";
 import DownloadSection from "./components/download-section/DownloadSection";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <MenuPack />
       <Testimonials />
       <DownloadSection />
+      <Footer />
     </Fragment>
   );
 }
