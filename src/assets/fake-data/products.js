@@ -32,7 +32,14 @@ import coffeeImg06 from "../images/coffe6.png";
 import coffeeImg07 from "../images/coffe7.png";
 import coffeeImg08 from "../images/coffe8.png";
 
-import salad from "../images/slider2.png";
+import riceImg01 from "../images/rice01.png";
+import riceImg02 from "../images/rice02.png";
+import riceImg03 from "../images/rice03.png";
+import riceImg04 from "../images/rice04.png";
+import riceImg05 from "../images/rice05.png";
+import riceImg06 from "../images/rice06.png";
+import riceImg07 from "../images/rice07.png";
+import riceImg08 from "../images/rice08.png";
 
 export const popularMenuFood = [
   {
@@ -119,49 +126,49 @@ export const riceMenuProducts = [
     id: "12",
     title: "Fried Rice",
     price: 95,
-    imgUrl: salad,
+    imgUrl: riceImg01,
   },
   {
     id: "14",
     title: "Vegetable",
     price: 250,
-    imgUrl: salad,
+    imgUrl: riceImg02,
   },
   {
     id: "15",
     title: "Vegetable Salad",
     price: 195,
-    imgUrl: salad,
+    imgUrl: riceImg03,
   },
   {
     id: "16",
     title: "Meal",
     price: 275,
-    imgUrl: salad,
+    imgUrl: riceImg04,
   },
   {
     id: "17",
     title: "Fried Rice",
     price: 95,
-    imgUrl: salad,
+    imgUrl: riceImg05,
   },
   {
     id: "18",
     title: "Vegetable",
     price: 250,
-    imgUrl: salad,
+    imgUrl: riceImg06,
   },
   {
     id: "19",
     title: "Vegetable Salad",
     price: 195,
-    imgUrl: salad,
+    imgUrl: riceImg07,
   },
   {
     id: "20",
     title: "Meal",
     price: 275,
-    imgUrl: salad,
+    imgUrl: riceImg08,
   },
 ];
 
