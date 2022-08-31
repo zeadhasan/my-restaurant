@@ -5,6 +5,7 @@ import HeroSlider from "./components/hero-slider/HeroSlider";
 import PopularMenu from "./components/popular-menu/PopularMenu";
 import ChooseUs from "./components/choose-us/ChooseUs";
 import MenuPack from "./components/menu-pack/MenuPack";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PopularMenu />
       <ChooseUs />
       <MenuPack />
+      <Testimonials />
     </Fragment>
   );
 }
