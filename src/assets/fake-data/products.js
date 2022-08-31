@@ -3,9 +3,18 @@ import pizzaImg01 from "../images/pizza1.png";
 import pizzaImg02 from "../images/pizza2.png";
 import pizzaImg03 from "../images/pizza3.jpg";
 import pizzaImg04 from "../images/pizza4.jpg";
+import pizzaImg05 from "../images/pizza5.jpg";
+import pizzaImg06 from "../images/pizza6.png";
+import pizzaImg07 from "../images/pizza7.png";
+import pizzaImg08 from "../images/pizza8.jpg";
 
-import fastFood03 from "../images/chicken3.png";
-import fastFood04 from "../images/chicken4.png";
+import fastFood02 from "../images/fastFood02.png";
+import fastFood03 from "../images/fastFood03.png";
+import fastFood04 from "../images/fastFood04.png";
+import fastFood05 from "../images/fastFood05.png";
+import fastFood06 from "../images/fastFood06.png";
+import fastFood07 from "../images/fastFood07.png";
+import fastFood08 from "../images/fastFood08.png";
 
 import dessert02 from "../images/dessert02.png";
 import dessert03 from "../images/dessert2.png";
@@ -14,7 +23,6 @@ import dessert05 from "../images/dessert03.png";
 import dessert06 from "../images/dessert04.png";
 import dessert07 from "../images/dessert05.png";
 import dessert08 from "../images/dessert06.png";
-
 
 import coffeeImg02 from "../images/coffe2.png";
 import coffeeImg03 from "../images/coffe3.png";
@@ -60,13 +68,13 @@ export const fastFoodProducts = [
     id: "05",
     title: "Burger",
     price: 95,
-    imgUrl: fastFood04,
+    imgUrl: fastFood02,
   },
   {
     id: "06",
     title: "Chicken",
     price: 250,
-    imgUrl: fastFood04,
+    imgUrl: fastFood03,
   },
   {
     id: "07",
@@ -78,31 +86,31 @@ export const fastFoodProducts = [
     id: "08",
     title: "Barbeque",
     price: 275,
-    imgUrl: fastFood04,
+    imgUrl: fastFood05,
   },
   {
     id: "09",
     title: "Pizza",
     price: 275,
-    imgUrl: fastFood04,
+    imgUrl: fastFood06,
   },
   {
     id: "10",
     title: "Burger",
     price: 95,
-    imgUrl: fastFood04,
+    imgUrl: fastFood07,
   },
   {
     id: "11",
     title: "Chicken",
     price: 250,
-    imgUrl: fastFood04,
+    imgUrl: fastFood08,
   },
   {
     id: "12",
     title: "Grill Chicken",
     price: 195,
-    imgUrl: fastFood04,
+    imgUrl: pizzaImg08,
   },
 ];
 
@@ -237,26 +245,26 @@ export const pizzaProducts = [
     id: "33",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg05,
   },
   {
     id: "34",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg06,
   },
 
   {
     id: "35",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg07,
   },
   {
     id: "36",
     title: "Pizza",
     price: 95,
-    imgUrl: pizzaImg01,
+    imgUrl: pizzaImg08,
   },
 ];
 
