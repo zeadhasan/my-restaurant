@@ -113,6 +113,7 @@
   .header {
     line-height: 40px;
     padding: 10px 0px;
+    height: 60px;
   }
   .custom__search {
     border: 1px solid #c4c4c425;

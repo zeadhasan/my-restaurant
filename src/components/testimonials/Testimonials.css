@@ -6,3 +6,25 @@
   font-size: 0.8rem;
   color: #fff;
 }
+/*====================make it responsive =================*/
+@media only screen and (max-width: 992px) {
+  .slider__content h2 {
+    font-size: 1.32rem;
+    margin-bottom: 20px !important;
+  }
+  .single__testimonial p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .slider__wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .slider__content {
+    width: 100% !important;
+  }
+  .slider__img {
+    display: none;
+  }
+}

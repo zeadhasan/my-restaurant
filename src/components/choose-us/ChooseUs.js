@@ -8,13 +8,13 @@ const ChooseUs = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6">
+          <Col lg="6" md="6">
             <img src={pastaImg} alt={pastaImg} className="w-100" />
           </Col>
 
-          <Col lg="6">
+          <Col lg="6" md="6">
             <div className="choose__content">
-              <h4>Who We Are?</h4>
+              <h5>Who We Are?</h5>
               <h2>take a chance on what we are offering you</h2>
               <p>
                 It is a long established fact that a reader will be distracted

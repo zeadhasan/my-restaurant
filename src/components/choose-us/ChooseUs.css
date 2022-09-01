@@ -17,7 +17,7 @@
 .single__feature span i {
   font-size: 1.5rem;
 }
-.choose__content h4 {
+.choose__content h5 {
   color: #fff;
   margin-bottom: 15px;
 }
@@ -51,4 +51,22 @@
 .feature__icon-four:hover {
   border: none !important;
   background: #7865ff !important;
+}
+/*====================make it responsive =================*/
+@media only screen and (max-width: 992px) {
+  .choose__content h2 {
+    font-size: 1.5rem;
+  }
+  .choose__content h5 {
+    font-size: 1rem;
+  }
+  .choose__content p {
+    font-size: 0.8rem;
+  }
+  .single__feature h6 {
+    font-size: 0.8rem;
+  }
+  .single__feature p {
+    font-size: 0.6rem;
+  }
 }
